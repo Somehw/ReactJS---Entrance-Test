@@ -1,0 +1,190 @@
+.signup {
+  background: #ffffff;
+  flex-direction: row;
+  display: flex;
+  flex: 1;
+}
+
+.illutrations {
+  display: flex;
+  width: calc(100% - 484px);
+}
+
+.group {
+  display: flex;
+  width: 726.39px;
+  background-image: url("./statics/Group.svg");
+  background-color: #f8f8f8;
+  height: 576.56px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body_bg {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.signup_form {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #fff;
+  display: flex;
+  flex: 1;
+}
+
+.group_95 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 303px;
+  height: 51px;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5e5873;
+}
+
+span.textHeading {
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e5873;
+}
+
+span.textBody {
+  font-family: "Montserrat";
+  font-style: normal;
+  line-height: 21px;
+  font-weight: 400;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6e6b7b;
+}
+
+span.checkboxLabel {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6e6b7b;
+  margin-right: 6px;
+}
+
+a.checkboxLink {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7367f0;
+}
+
+span.buttonLabel {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #6e6b7b;
+  margin-right: 10px;
+}
+
+.loginHref {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7367f0;
+  cursor: pointer;
+}
+
+.footerContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hr {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  background-color: #e9eaec;
+}
+
+.hrText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  color: #6e6b7b;
+  padding: 0 10px;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: -11px;
+  margin-top: 16px;
+}
+
+.socialItem {
+  width: 30px;
+  height: 30px;
+  margin-right: 11px;
+}

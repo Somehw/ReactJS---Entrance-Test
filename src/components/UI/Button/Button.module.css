@@ -1,0 +1,21 @@
+button {
+  display: flex !important;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+  background-color: #9188ec27;
+}
+
+.primary {
+  background: #7367f0;
+  border-radius: 5px;
+  border: unset;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}

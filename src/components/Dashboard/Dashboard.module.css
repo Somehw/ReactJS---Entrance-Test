@@ -1,0 +1,151 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  background: #f8f8f8;
+  flex: 1;
+}
+
+.body_bg {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.illtration_img {
+  display: flex;
+  width: 595.82px;
+  height: 496.77px;
+  background-position: center;
+}
+
+.horizontal_navbar {
+  width: 100%;
+  height: 62px;
+  background: #ffffff;
+}
+
+.right_text {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding: 13px 27.89px;
+  cursor: pointer;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 13.77px;
+}
+
+.name {
+  height: 21px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  text-align: right;
+
+  color: #6e6b7b;
+}
+
+.status {
+  height: 18px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-align: right;
+
+  color: #b9b9c3;
+}
+
+.welcome_text {
+  width: 286px;
+  height: 29px;
+
+  /* Heading / Heading H2 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  /* 1) Theme Color / Heading & Display - Text */
+
+  color: #5e5873;
+}
+
+.avatar_bg {
+  background: #7367f0;
+  border-radius: 50%;
+}
+.avatar {
+  border-radius: 50%;
+}
+
+.footer {
+  width: 1440px;
+  height: 52px;
+}
+
+.copyright {
+  width: 138px;
+  height: 21px;
+  padding: 16px 1274px 15px 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  color: #6e6b7b;
+}
+
+/* Dropdown */
+.dropdownContainer {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e9eaeb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.dropdownItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdownItemText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  color: #6e6b7b;
+  margin-right: 5px;
+}
